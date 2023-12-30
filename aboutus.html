@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us - Dungeon PlayBy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="customCSS/customCss.css">
+    
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="index.html">Dungeon PlayBy</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shoppingpage.html">Shop Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html"`>About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Support.html"`>Support</a>
+              </li>
+          </div>
+        </div>
+        <br/>
+        <div> <!--stores the shopping cart icon and login-->
+          <div class="align-right nav-link active">
+            <a href="login.html">Login</a>
+          </div>
+        </div>
+        <div class="align-right nav-link active " style="padding-left: 2rem;">
+            <a class="nav-item nav-link" href="checkout.html">
+              <button type="button" class="btn btn-secondary ml-2">
+                Checkout <span class="badge badge-light" id="checkout">0</span>
+              </button>
+              </a>
+          </div>
+      </nav>
+
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+            
+        <div class="container-fluid">
+          <button type="button" class="btn btn-dark" onclick="toggleMode()">Light / Dark</button>
+        </div>
+        <h1>
+            <p class="align-center" style="size: 3rem;">About Us</p>
+        </h1>
+
+        <div class="container-fluid content-area align-center">
+        <hr/>
+
+        <br/>
+        
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col" style="size: 4rem;">
+                <b>Who are We?</b>
+                <hr/>
+                <br/>
+                <span>We are PlayBy. A company dedicated to tabletop enjoyment. We've come together from a shared passion for the tabletop gaming and the many stories we have as a result of playing these games.</span>
+                <br/><br/>
+                <div>
+                    <span>Don't worry we won't roleplay, just for you.</span>
+                    <img src="images/team.jpg" alt="Team here" style="width: 75%; height : 75%;">
+                    <div>
+                        <span>This is our marketing team, who definitely wrote this.</span>
+                    </div>
+                </div>
+              </div>
+              <div class="col" style="size: 4rem;">
+                <b>What We Do</b>
+                <hr/>
+                <br/>
+
+                <span>Our mission is to be a introductory force and positive influence in the world of Tabletop Gaming. We want to introduce people to the communities they may not have been a part of in the first place.</span>
+                <div>
+                    <span>This is mission critical for us. It is our wish for more stories to be create. Stories are where memories go when they're forgotten.</span>
+                </div>
+              </div>
+        </div>
+
+        <br/>
+
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col" style="size: 4rem;">
+                <b>Meet the Team</b>
+                <hr/>
+                <br/>
+                <div class="container text-center">
+                    <div class="row align-items-center">
+                      <div class="col align-items-center">
+                        <div class="card product outline" style="width: 18rem;">
+                          <img src="images/teamMember3.jpg" class="card-img-top" alt="The derpiest photos i could find of us">
+                          <div class="card-body">
+                            <h5 class="card-title">The Mystery of the Missing Water - Owner of PlayBy</h5>
+                            <p class="card-text">Stare into his dead eyes and he might stare back.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <div class="card product outline" style="width: 18rem; outline-color: crimson;">
+                      <img src="images/teamMember1.png" class="card-img-top" alt="The derpiest photos i could find of us">
+                      <div class="card-body">
+                        <h5 class="card-title">Trasora Yakuza - Chief Finacial Officer</h5>
+                        <p class="card-text">This was his face when he saw the bank statements.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <div class="card product outline" style="width: 18rem; outline-color: crimson;">
+                      <img src="images/teamMember2.png" class="card-img-top" alt="The derpiest photos i could find of us">
+                      <div class="card-body">
+                        <h5 class="card-title">Lorcaniser Spud - Marketing Officer</h5>
+                        <p class="card-text">Well, don't you look smug? Having a chuckle from your own genius?</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <div class="card product outline" style="width: 18rem; outline-color: crimson;">
+                      <img src="images/teamMember4.jpg" class="card-img-top" alt="The derpiest photos i could find of us">
+                      <div class="card-body">
+                        <h5 class="card-title">Xav - Meeting Scheduler</h5>
+                        <p class="card-text">Don't mind the headset, He just has bad eyesight and too many meetings to schedule.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <div class="card product outline" style="width: 18rem; outline-color: crimson;">
+                      <img src="images/teamMember5.jpg" class="card-img-top" alt="The derpiest photos i could find of us">
+                      <div class="card-body">
+                        <h5 class="card-title">N Mini - Investor</h5>
+                        <p class="card-text">Who's this hombre? Where did he stroll in from?</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <div class="card product outline" style="width: 18rem; outline-color: crimson;">
+                      <img src="images/teamMember6.jpg" class="card-img-top" alt="The derpiest photos i could find of us">
+                      <div class="card-body">
+                        <h5 class="card-title">Ronny Ed - Content Strategist</h5>
+                        <p class="card-text">You're in desperate need for a trim, Ronny.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <div class="card product outline" style="width: 18rem; outline-color: crimson;">
+                      <img src="images/teamMemeber7.jpg" class="card-img-top" alt="The derpiest photos i could find of us">
+                      <div class="card-body">
+                        <h5 class="card-title">Garlic Bread - Our Lord and Savior</h5>
+                        <p class="card-text">Our fuel. We must pay proper tribute to it.</p>
+                      </div>
+                    </div>
+                </div>
+        </div>
+        <hr/>
+        <br/>
+
+        <div>
+            <br/><br/><br/>
+        </div>
+        <p>Alright....Are the feds gone now? If so, then look below :&#41
+            <span id="dots">...</span>
+            <br/>
+            <span id="more">Joyous Chriskwanznukkah, you succulent lads,<br/><br/>
+
+                Some sort of holiday miracle has occurred! This website is finished after we locked away our slaves.....errm we mean Interns in the basement for an entire Chriskwanznukkah. Why? We must pay proper tribute to the Chriskwaznukkah Serpent for this blessing, lest it's mighty maw once more detach from it's tail and wreak yuletide havoc on the mortal world. It's a lot like an Ouroboros, but, like, covered in holly and ribbons and whatnot.
+                The Serpent has also demanded that we take a break for the holidays. Yes, it totally said that. What, are you calling us liars? Don't ask it or anything. It'll just deny it, for the Chriskwanznukkah Serpent pedals only in falsehoods.<br/>
+                01001001 01100110 00100000 01111001 01101111 01110101 00100111 01110010 01100101 00100000 01110010 01100101 01100001 01100100 01101001 01101110 01100111 00100000 01110100 01101000 01101001 01110011 00100000 01110000 01101100 01100101 01100001 01110011 01100101 00100000 01110011 01100101 01101110 01100100 00100000 01101000 01100101 01101100 01110000 00101110 00001010 01010111 01100101 00100111 01110110 01100101 00100000 01100010 01100101 01100101 01101110 00100000 01110011 01110100 01110101 01100011 01101011 00100000 01101000 01100101 01110010 01100101 00100000 01100110 01101111 01110010 00100000 01101101 01100001 01101110 01111001 00100000 01111001 01100101 01100001 01110010 01110011 00100000 00101101 00100000 01001100 01101111 01100011 00100000 01010100 01100101 01100001 01101101 00101110</span></p>
+        <button onclick="ReadMore()" id="newBtn">Secret Sauce :&#41;</button>
+        </div>
+
+        <script src="JavaScript/darkmode.js"></script>
+        <script src="JavaScript/return_to_top.js"></script>
+        <script src="JavaScript/readmore.js"></script>
+        <script src="JavaScript/addtocart.js"></script>
+    </main>
+    <div class="container-fluid">
+      <footer class="d-flex flex-wrap py-4 my-5 border-top footer-color" >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-7 ">&copy; 2023 PlayBy
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="shoppingpage.html">Shop Products</a>
+            <a class="nav-link" href="aboutus.html"`>About Us</a>
+            <a class="nav-link" href="Support.html"`>Support</a>
+          </span>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>
